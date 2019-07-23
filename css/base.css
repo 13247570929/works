@@ -1,0 +1,396 @@
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+*{
+	padding: 0px;
+	margin:0px;
+}
+h5,p{
+	padding: 0px;
+	margin: 0px;
+}
+
+.w{
+	margin:0 auto;
+}
+.fl{
+	float: left;
+}
+.f10{
+	color: #f10215;
+}
+
+.fr{
+	float: right;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?7t9nky');
+  src:  url('../fonts/icomoon.eot?7t9nky#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7t9nky') format('truetype'),
+    url('../fonts/icomoon.woff?7t9nky') format('woff'),
+    url('../fonts/icomoon.svg?7t9nky#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+i{
+	font-family: 'icomoon';
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 80px;
+	background:#020000;
+}
+
+.header{
+	width: 1195px;
+	height: 80px;
+}
+
+.shortcut{
+	width: 100%;
+	height: 30px;
+	background:#e3e4e5;
+}
+
+.nav{
+	width: 1195px;
+	height: 30px;
+}
+
+.nav .fl{
+	margin-left: 208px;
+	line-height: 30px;
+}
+.nav .fl li{
+	color: #999999;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.nav .fr li{
+	float: left;
+}
+.nav .fr li a{
+	color: #999999;
+	font-size: 12px;
+	line-height: 30px;
+}
+.nav .fr li:nth-child(1){
+	margin-right: 8px;
+}
+.line{
+	width: 1px;
+	height: 10px;
+	background:#cccccc;
+	margin: 10px 12px 0;
+}
+.nav .fr .f10{
+	color: #f10215;
+}
+.nav .fr .pic{
+	width: 67px;
+	height: 67px;
+	background: url('../img/mobile.png') 4px 4px no-repeat;
+	border:1px solid #cfcfcf;
+}
+
+.middle{
+	height: 140px;
+	width: 100%;
+	background:#f6f6f6;
+}
+
+.middle-in{
+	width: 1195px;
+	height: 140px;
+	position: relative;
+}
+
+.logo{
+	width: 190px;
+	height: 170px;
+	background:#2ecc71;
+	position: absolute;
+	left: 0px;
+	top: -30px;
+}
+
+.logo a{
+	display: block;
+	width: 190px;
+	height: 170px;
+	background:#fff url('../img/logo.png') no-repeat;
+}
+
+.middle-in form{
+	width: 550px;
+	height: 35px;
+	position: absolute;
+	left: 320px;
+	top: 26px;
+}
+
+.middle-in input{
+	width: 498px;
+	height: 33px;
+	border:1px solid #f10215;
+	float: left;
+	outline: none;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+.middle-in button{
+	width: 50px;
+	height: 35px;
+	background: #f10215;
+	float: left;
+	border:none;
+}
+
+.middle-in .shopCar{
+	width: 190px;
+	height: 35px;
+	border:1px solid #e3e4e5;
+	box-sizing: border-box;
+	position: absolute;
+	top: 26px;
+	left: 902px;
+	background: #fff;
+}
+
+.middle-in .shopCar i{
+	font-family: 'icomoon';
+	position: absolute;
+	top: 8px;
+	left:50px;
+	color:#f10215;
+}
+
+.middle-in .shopCar p{
+	margin-left: 72px;
+	float: left;
+	margin-top: 8px;
+	font-size: 12px;
+	color:#f10215;
+}
+
+.middle-in .shopCar span{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #f10215;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 15px;
+	font-size: 10px;
+	right: 31px;
+	top: 6px;
+}
+
+.middle-in .hotword{
+	position: absolute;
+	top: 70px;
+	left: 320px;
+}
+
+.middle-in .hotword p{
+	float: left;
+	margin-right: 8px;
+}
+.middle-in .hotword p a{
+	font-size: 12px;
+	color:#999999;
+}
+.middle-in .hotword p:nth-child(1) a{
+	color: #f10215;
+}
+
+.navitem{
+	position: absolute;
+	top: 110px;
+	left:200px;
+}
+
+.navitem ul{
+	float: left;
+}
+
+.navitem ul li{
+	float: left;
+	margin-left: 30px;
+}
+.navitem ul li a{
+	font-size: 16px;
+	color: #555555;
+}
+
+.navitem ul .lines{
+	width: 1px;
+	height: 12px;
+	background: #cccccc;
+	margin-top: 7px;
+	margin-left: 15px;
+	margin-right: -15px;
+}
+
+.super{
+	position: absolute;
+	right: 0px;
+	top: 90px;
+}
+
+.footer{
+	width: 100%;
+	height: 500px;
+	margin-top: 40px;
+	background: #eaeaea;
+}
+
+.footer .four{
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #dedede;
+}
+.footer .four .four-in{
+	width: 1195px;
+	height: 100px;
+	position: relative;
+
+}
+
+.footer .title{
+	width: 298.75px;
+	height: 100px;
+	padding-top: 40px;
+	padding-left: 80px;
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+}
+
+.four-in .title h5{
+	width: 40px;
+	height: 42px;
+	background:url('../img/ico.png') 0 0 no-repeat;
+	position: absolute;
+	top: 28px;
+	left:36px;
+}
+.four-in .title:nth-child(2) h5{
+	background:url('../img/ico.png') 0 -42px no-repeat;
+}
+.four-in .title:nth-child(3) h5{
+	background:url('../img/ico.png') 0 -85px no-repeat;
+}
+.four-in .title:nth-child(4) h5{
+	background:url('../img/ico.png') 0 -128px no-repeat;
+}
+
+.footer-in{
+	width: 1195px;
+	height: 400px;
+}
+
+.footer-in .help{
+	width: 1195px;
+	height: 200px;
+	border-bottom: 1px solid #dedede;
+}
+.footer-in .help .fl dl{
+	margin-top: 24px;
+	float: left;
+	width: 195px;
+}
+
+.footer-in .help .fl dt{
+	height: 28px;
+	font-size: 14px;
+}
+
+.footer-in .help .fl dd{
+	height: 20px;
+	font-size: 12px;
+	color: #666666;
+}
+
+.footer-in .help .fr{
+	width: 200px;
+	height: 150px;
+	background: url('../img/ico_footer.png') 0 0 no-repeat;
+	margin-top: 20px;
+}
+.footer-in .help .fr h5{
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+}
+
+.footer-in .help .fr p{
+	width: 182px;
+	font-size: 12px;
+	color: #666;
+	margin-top: 20px;
+}
+.footer-in .help .fr a{
+	display: block;
+	width: 182px;
+	text-align: right;
+	font-size: 12px;
+	color: #666;
+}
+.finish{
+	width: 100%;
+	height: 200px;
+	padding-top: 18px;
+	text-align: center;
+	color: #666;
+	font-size: 10px;
+}
+
+
+.finish a{
+	font-size:12px;
+	color: #666;
+}
+.finish span{
+	margin: 0 8px;
+}
+.finish div{
+	margin-top: 20px;
+}
+.finish div p{
+	line-height: 22px;
+}
+.finish .foot-icon a{
+	display: inline-block;
+	width: 100px;
+	height: 33px;
+	text-align: center;
+	background:url('../img/ico_footer.png')no-repeat 0 -150px;
+}
+.finish .foot-icon a:nth-child(2){
+	background:url('../img/ico_footer.png')no-repeat -100px -150px;
+}
+
+.finish .foot-icon a:nth-child(3){
+	background:url('../img/ico_footer.png')no-repeat 0px -183px;
+}
+.finish .foot-icon a:nth-child(4){
+	background:url('../img/ico_footer.png')no-repeat -100px -183px;
+}
+.finish .foot-icon a:nth-child(5){
+	background:url('../img/ico_footer.png')no-repeat 0px -216px;
+}
+.finish .foot-icon a:nth-child(6){
+	background:url('../img/ico_footer.png')no-repeat -100px -216px;
+}
